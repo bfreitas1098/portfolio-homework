@@ -85,6 +85,7 @@ p {
   background-color: var(--primary-color) !important;
   box-shadow: var(--box-shadow);
   border-radius: 4px;
+  padding: 20px 15px;
 }
 
 .yoga-button {
@@ -102,4 +103,45 @@ p {
 .nav-link:hover,
 .navbar-brand:hover {
   color: black !important;
+}
+
+@media (max-width: 576px) {
+  img {
+    display: none;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  h2,
+  p {
+    text-align: center !important;
+  }
+
+  .navigation-links a {
+    padding: 7px 7px;
+    font-size: 12px;
+  }
+
+  .btn {
+    padding: 7px 7px;
+    font-size: 12px;
+  }
+
+  .email-link {
+    font-size: 18px;
+  }
 }
