@@ -11,7 +11,7 @@ body {
 }
 
 a:hover {
-  color: #4f5eeb !important;
+  color: white;
 }
 
 h1,
@@ -68,6 +68,10 @@ p {
   border: 1px solid var(--primary-color);
 }
 
+.about-link:hover {
+  color: var(--primary-color) !important;
+}
+
 .email-link {
   display: flex;
   justify-content: center;
@@ -77,8 +81,7 @@ p {
 }
 
 .email-link:hover {
-  text-decoration: underline;
-  color: #4f5eeb !important;
+  color: white;
 }
 
 .btn {
@@ -88,16 +91,12 @@ p {
   padding: 20px 15px;
 }
 
-.yoga-button {
-  margin-top: -35px;
-}
-
 .yoga-description {
   margin-left: -10px;
 }
 
-.weather-pic {
-  margin-bottom: 50px !important;
+.yogurt-button {
+  margin-left: 15px;
 }
 
 .nav-link:hover,
@@ -123,6 +122,14 @@ p {
     text-align: center;
   }
 
+  .subtitle {
+    text-align: center !important;
+  }
+
+  .description {
+    text-align: center !important;
+  }
+
   .navigation-links a {
     padding: 7px 7px;
     font-size: 12px;
@@ -135,5 +142,12 @@ p {
 
   .email-link {
     font-size: 18px;
+  }
+
+  .yoga-button,
+  .weather-button,
+  .yogurt-button {
+    display: block;
+    margin: 0 100px;
   }
 }
