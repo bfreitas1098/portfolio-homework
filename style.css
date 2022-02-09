@@ -106,10 +106,6 @@ p {
 }
 
 @media (max-width: 576px) {
-  img {
-    display: none;
-  }
-
   h1 {
     font-size: 50px;
   }
@@ -119,16 +115,12 @@ p {
   }
 
   h3 {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   p {
     font-size: 12px;
-  }
-
-  h2,
-  p {
-    text-align: center !important;
+    text-align: center;
   }
 
   .navigation-links a {
